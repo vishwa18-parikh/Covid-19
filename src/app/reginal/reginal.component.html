@@ -1,0 +1,13 @@
+<table class="table table-boardered">
+<thead>
+<th>Location</th>
+<th>Confirm-Cases</th>
+<th>Deaths</th>
+</thead>
+
+<tr *ngFor="let r of reg">
+<td>{{r.loc}}</td>
+<td>{{r.confirmedCasesIndian}}</td>
+<td>{{r.deaths}}</td>
+</tr>
+</table>
